@@ -1,9 +1,12 @@
- .team-list {
+
+.team-list {
      display: flex;
      margin-top: 0;
      margin-bottom: 0;
 
-
+& {
+    @include list();
+}
 &__item > li {
      background-color: var(--fourth-bc-color);
  }

@@ -27,7 +27,7 @@
         <div class="header__box">
         <nav class="header__nav">
           <a href="" class="logo"><span class="logo__span">Web</span>Studio</a>
-          <ul class="header__list list">
+          <ul class="header__list">
             <li class="header__item">
               <a href="" class="header__link header__link--current">Студія</a>
             </li>
@@ -37,14 +37,14 @@
             <li class="header__item"><a href="" class="header__link">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="contact list">
+        <ul class="contact">
            <li class="contact__item"> 
             <a href="mailto:info@devstudio.com" class="contact__link"><svg class="contact__icon" width="16" height="12">
               <use href="./images/symbol-defs.svg#icon-envelope"></use>
             </svg>info@devstudio.com</a> 
           </li>
           <li class="contact__item"> 
-            <a href="tel:+380961111111" class="contact__link tel"><svg class="contact__icon" width="16" height="12">
+            <a href="tel:+380961111111" class="contact__link"><svg class="contact__icon" width="16" height="12">
               <use href="./images/symbol-defs.svg#icon-smartphone1"></use>
             </svg>+380961111111</a>
           </li>
@@ -61,7 +61,7 @@
       </section>
       <section class="section">
         <div class="container">
-         <ul class="organization-list list">
+         <ul class="organization-list">
             <li class="organization-list__item"> <div class="organization-list__svg"><svg class="organization-list__icon" width="70" heigth="70">
               <use href="./images/symbol-defs.svg#icon-antenna" ></use>
             </svg></div> 
@@ -103,7 +103,7 @@
       <section class="section section-work">
         <div class="container">
           <h2 class="section__title">Чим ми займаємося</h2>
-          <ul class="work-list list">
+          <ul class="work-list">
             <li class="work-list__item">
               <div class="work-list__thumb">
               <img
@@ -134,10 +134,10 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section section-team">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
-          <ul class="team-list list">
+          <ul class="team-list">
             <li class="team-list__item">
               <img
                 src="./images/img2/img1.jpg"
@@ -147,7 +147,7 @@
               <div class="team-list__employees">
                 <h3 class="team-list__name">Ігор Дем'яненко</h3>
                 <p class="team-list__text">Product Designer</p>
-                <ul class="soc-list list">
+                <ul class="soc-list">
                   <li class="soc-list__item">
                     <a href="" class="soc-list__link">
                       <svg class="soc-list__icon" width="20" height="20">
@@ -272,7 +272,7 @@
       <section class="section">
          <div class="container">
           <h2 class="section__title">Постійні клієнти</h2>
-          <ul class="client-list list">
+          <ul class="client-list">
             <li class="client-list__item"><a href="" class="client-list__link"> <svg class="client-list__icon" width="106" height="60">
               <use href="./images/symbol-defs.svg#icon-Logo"></use>
             </svg></a></li>
@@ -299,24 +299,22 @@
         <div class="footer__social">
         <div class="footer__adress">
         <a href="" class="logo footer__logo"><span class="logo__span">Web</span>Studio</a>
-        <address class="adress-contact">
-          <ul class="adress-contact__list list">
-            <li class="adress-contact__item">
-              <p class="adress-contact__text">м. Київ, пр-т Лесі Українки, 26</p></li>
-            <li adress-contact__item>
-              <a href="mailto:info@devstudio.com" class="adress-contact__mail"
+       <ul class="footer__adress-list">
+            <li class="footer__item">
+              <p class="footer__text">м. Київ, пр-т Лесі Українки, 26</p></li>
+            <li class="footer__item">
+              <a href="mailto:info@devstudio.com" class="footer__mail"
                 >info@devstudio.com</a
               >
             </li>
-            <li adress-contact__item>
-              <a href="tel:+380961111111" class="adress-contact__tel">+380961111111</a>
+            <li class="footer__item">
+              <a href="tel:+380961111111" class="footer__tel">+380961111111</a>
             </li>
           </ul>
-         </address>
-        </div>
+         </div>
          <div class="footer__networks">
           <p class="footer__networks-text">приєднуйтесь</p>
-          <ul class="soc-list list">
+          <ul class="soc-list">
             <li class="soc-list__item"><a href="" class="soc-list__link footer__soc-list__link"> <svg class="soc-list__icon" width="20" height="20">
                         <use
                           href="./images/symbol-defs.svg#icon-instagram"
@@ -350,10 +348,10 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-    <button type="button" class="close-button" data-modal-close><svg class="button-icon" width="18"heigth=18>
+    <button type="button" class="modal__button" data-modal-close><svg class="modal__icon" width="18"heigth=18>
       <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
     </svg></button>
-    <p class="form-text">Залиште свої дані, ми вам передзвонимо</p>
+    <p class="modal__text">Залиште свої дані, ми вам передзвонимо</p>
   <form class="form">
     <div class="form__field">
     <label class="form__label" for="name">Ім'я</label>
@@ -377,16 +375,18 @@
   </div>
     <div class="form__comment">
     <label class="form__label" for="comment">Коментар</label>
-    <textarea name="comment" id="comment" rows="10" placeholder="Введіть текст" cols="30" rows="10"></textarea></div>
+    <textarea class="form__textarea" name="comment" id="comment" rows="10" placeholder="Введіть текст" cols="30" rows="10"></textarea>
+  </div>
    <label class="check-label" for="agree">
     <div class="check-label__box">
-      <input class="check-label__input visually-hidden"type="checkbox"name="agree"value="permit"id="agree">
+      <input class="check-label__input "type="checkbox"name="agree"value="permit"id="agree">
       <span class="check-label__icon">
         <svg class="check-label__mark" width="16" height="15">
     <use href="./images/symbol-defs.svg#icon-icon-check"></use>
-   </svg></span></div>Погоджуюся з розсилкою та приймаю <a href=""class="check-label__link">Умови договору</a></label>
-    <div class="go">
-     <button class="button go__button" type="submit">Відправити</button>
+   </svg></span></div>Погоджуюся з розсилкою та приймаю <a href=""class="check-label__link">Умови договору</a>
+  </label>
+    <div class="send">
+     <button class="button send__button" type="submit">Відправити</button>
     </div>
     </form>
     </div>

@@ -3,6 +3,9 @@
   margin-top: 0;
   margin-bottom: 0; 
 
+  & {
+    @include list();
+  }
 
 &__item:not(:last-child) {
     margin-right: 30px;

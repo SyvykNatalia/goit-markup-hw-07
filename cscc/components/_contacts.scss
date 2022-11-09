@@ -2,7 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+& {
+    @include list();
+}
 
 &__item+.contact__item {
     margin-left: 50px;
@@ -26,7 +28,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
     &:hover,
-       &:focus {
+    &:focus {
             color: var(--accent-color);
             transform: scale(1.1);
         }

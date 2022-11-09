@@ -1,6 +1,6 @@
 @import "./utils/variables";
 @import "./utils/base";
-@import "./utils/visually-hidden";
+@import "./utils/mixins";
 @import "./components/container";
 @import "./components/button";
 @import "./components/logo";
@@ -13,6 +13,13 @@
 @import "./components/team-list";
 @import "./components/soc-list";
 @import "./components/client-list";
+@import "./components/footer";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/form";
+@import "./components/check-label";
+@import "./components/send-btn";
+
 
 
 

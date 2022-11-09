@@ -4,7 +4,9 @@
     margin-top: 16px;
     justify-content: center;
 
-
+& {
+    @include list();
+}
 &__link {
     display: flex;
     width: 44px;
