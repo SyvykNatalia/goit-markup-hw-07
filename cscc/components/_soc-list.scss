@@ -1,0 +1,31 @@
+.soc-list {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    justify-content: center;
+
+
+&__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+   &:hover,
+   &:focus {
+            background-color: var(--accent-color);
+            color: #FFFFFF;
+        }
+}
+
+&__icon {
+    fill: currentColor;
+}
+
+
+}

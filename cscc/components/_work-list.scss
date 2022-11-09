@@ -1,0 +1,32 @@
+.work-list {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+
+
+&__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+&__thumb {
+    position: relative;
+}
+
+&__label {
+    display: flex;
+    position: absolute;
+    font-weight: 500;
+    width: 370px;
+    height: 70px;
+    top: 224px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.8);
+    color: var(--third-text-color);
+}
+}

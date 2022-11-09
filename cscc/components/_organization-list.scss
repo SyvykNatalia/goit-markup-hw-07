@@ -1,0 +1,41 @@
+.organization-list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0; 
+
+
+&__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+ &__svg {
+   display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: var(--third-bc-color);
+ justify-content: center;
+    margin-bottom: 30px;
+}
+
+&__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+&__text {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+}
+
