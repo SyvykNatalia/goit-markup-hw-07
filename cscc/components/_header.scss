@@ -13,8 +13,9 @@
     align-items: center;
 }
 &__list {
-    margin: 0;
     display: flex;
+    margin: 0;
+    
     & {
         @include list();
     }
@@ -29,16 +30,16 @@
 }
 
 &__link {
-    color: var(--primary-text-color);
+    position: relative;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
     text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     font-weight: 500;
-    display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    position: relative;
+    color: var(--primary-text-color);
     transform: scale(1);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

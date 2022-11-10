@@ -13,15 +13,15 @@
 &__link {
     display: flex;
     justify-content: center;
-    color: var(--secondary-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 10px;
     text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     font-weight: 500;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    gap: 10px;
+    color: var(--secondary-text-color);
     fill: var(--secondary-text-color);
     transform: scale(1);
     transition-duration: 250ms;

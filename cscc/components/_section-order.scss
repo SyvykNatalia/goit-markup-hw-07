@@ -14,17 +14,20 @@
     background-size: cover;
 
 &__title {
-    color: var(--third-text-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 700px;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    font-weight: 900;
-    margin-top: 0;
-    margin-bottom: 30px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+    color: var(--third-text-color);
+   
+   
+    
 }
 &__button {
     width: 216px;

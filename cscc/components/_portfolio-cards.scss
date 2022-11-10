@@ -73,19 +73,21 @@
  }
 
  &__title {
-     color: var(--primary-text-color);
-     font-size: 18px;
-     line-height: 2;
-     letter-spacing: 0.06em;
-     margin-top: 0;
-     margin-bottom: 4px;
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+   
  }
 
 &__text {
-     color: var(--secondary-text-color);
-     font-size: 16px;
-     line-height: 1.9;
-     margin-top: 0;
-     margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--secondary-text-color);
+    
  }
   }

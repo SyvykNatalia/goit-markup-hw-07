@@ -15,16 +15,16 @@
 }
 
 &__button {
-    color: var(--primary-text-color);
-    background-color: var(--third-bc-color);
+    padding: 6px 22px;
+    min-width: 73px;
     font-size: 16px;
     line-height: 1.6;
     font-weight: 500;
-    padding: 6px 22px;
     border-radius: 4px;
-    min-width: 73px;
     border-style: none;
     border: 1px solid transparent;
+    color: var(--primary-text-color);
+    background-color: var(--third-bc-color);
     transform: scale(1);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
