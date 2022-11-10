@@ -259,10 +259,10 @@ padding-bottom: 94px;
 
 /* Section-work */
 
-.section-work {
+/* .section-work {
    padding-top: 0;
    padding-bottom: 94px;
-   }
+   } */
 /* .section__title {
    color: var(--primary-text-color);
    font-size: 36px;
@@ -303,9 +303,9 @@ padding-bottom: 94px;
 } */
 
 /* Section-team */
-.section-team {
+/* .section-team {
 background-color: var(--third-bc-color);
-}
+} */
       
 /* .section-team__title {
    color: var(--primary-text-color);
@@ -535,13 +535,13 @@ color: var(--third-text-color);
 
  /* Portfolio */
 
-.section-portfolio {
+/* .section-portfolio {
    background-color: var(--fourth-bc-color);
    padding-top: 94px;
    padding-bottom: 94px;
-}
-
-.section-portfolio__title.visually-hidden {
+} */
+/* 
+.portfolio-title.visually-hidden {
    position: absolute;
       white-space: nowrap;
       width: 1px;
@@ -552,18 +552,18 @@ color: var(--third-text-color);
       clip: rect(0 0 0 0);
       clip-path: inset(50%);
       margin: -1px;
-}
-.section-portfolio__filters {
+} */
+/* .portfolio-filters {
 font-family: inherit;
 }
-.section-portfolio__filters{
+.portfolio-filters{
    display: flex;
    justify-content: center;
 }
-.section-portfolio__item:not(:last-child) {
+.portfolio-filters__item:not(:last-child) {
    margin-right: 8px;
 }
-.section-portfolio__button {
+.portfolio-filters__button {
    color: var(--primary-text-color);
    background-color: var(--third-bc-color);
    font-size: 16px;
@@ -579,19 +579,19 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 cursor: pointer;
 }
-.section-portfolio__button:hover,
-.section-portfolio__button:focus {
+.portfolio-filters__button:hover,
+.portfolio-filters__button:focus {
  color: var(--third-text-color);
    background-color: var(--accent-color);
    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
       border-radius: 4px;
       transform: scale(1.1);
 }
-.section-portfolio__button {
+.portfolio-filters__button {
    margin-top: 0;
    margin-bottom: 50px;
-}
- .cards {
+} */
+ /* .cards {
    margin-top: 0;
    margin-bottom: 0;
 }
@@ -665,7 +665,7 @@ padding: 63px 24px;
    line-height: 1.9;
    margin-top: 0;
    margin-bottom: 0;
-   }
+   } */
  
  /* Модальне вікно */
 

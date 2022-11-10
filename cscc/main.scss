@@ -1,13 +1,18 @@
 @import "./utils/variables";
-@import "./utils/base";
-@import "./utils/mixins";
+@import "./base/fonts";
+@import "./base/base";
+@import "./layout/mixins";
 @import "./components/container";
 @import "./components/button";
 @import "./components/logo";
 @import "./components/header";
 @import "./components/contacts";
+@import "./components/section-organization";
+@import "./components/section-work";
+@import "./components/section-team";
+@import "./components/section-clients";
 @import "./components/section-order";
-@import "./components/section";
+@import "./components/sectio-title";
 @import "./components/organization-list.scss";
 @import "./components/work-list";
 @import "./components/team-list";
@@ -19,7 +24,10 @@
 @import "./components/form";
 @import "./components/check-label";
 @import "./components/send-btn";
-
+@import "./components/portfolio-title-hidden";
+@import "./components/section-portfolio";
+@import "./components/portfolio-filters";
+@import "./components/portfolio-cards";
 
 
 

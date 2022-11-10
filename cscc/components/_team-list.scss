@@ -7,7 +7,7 @@
 & {
     @include list();
 }
-&__item > li {
+&__item  {
      background-color: var(--fourth-bc-color);
  }
 

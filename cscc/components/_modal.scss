@@ -16,7 +16,7 @@
       transform: translate(-50%, -50%) scale(0.5);
   }
 
- &__button {
+ &__button1 {
       display: flex;
       align-items: center;
       position: absolute;
@@ -47,5 +47,14 @@
 &:hover {
     fill: var(--accent-color);
  }
+  }
+ 
+  &__send {
+    display: flex;
+    justify-content: center;
+  }
+  &__button2 {
+    margin-top: 30px;
+     margin-bottom: 40px;
   }
 }

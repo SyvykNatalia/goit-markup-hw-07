@@ -1,0 +1,46 @@
+.portfolio-filters {
+    display: flex;
+    justify-content: center;
+
+    & {
+        @include list();
+    }
+
+.portfolio-filters {
+    font-family: inherit;
+}
+
+&__item:not(:last-child) {
+    margin-right: 8px;
+}
+
+&__button {
+    color: var(--primary-text-color);
+    background-color: var(--third-bc-color);
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+    padding: 6px 22px;
+    border-radius: 4px;
+    min-width: 73px;
+    border-style: none;
+    border: 1px solid transparent;
+    transform: scale(1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+     color: var(--third-text-color);
+     background-color: var(--accent-color);
+     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+     border-radius: 4px;
+     transform: scale(1.1);
+    }
+    }
+&__button {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+}
