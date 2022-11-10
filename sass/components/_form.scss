@@ -27,7 +27,7 @@
     top: 11px;
     left: 12px;
     fill: currentColor;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms $trannsition-function;
 }
 
 &__label {
@@ -36,20 +36,20 @@
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.01em;
-    color: var(--secondary-text-color);
+    color: $secondary-text-color;
 }
 
 &__input {
     outline: none;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: 250ms $trannsition-function;
 }
 
 &__input:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
 }
 
 &__input:focus+.form__icon {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 &__comment {
@@ -65,11 +65,11 @@
     border-radius: 4px;
     resize: none;
     outline: none;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms $trannsition-function;
   
     
     &:focus {
-     border-color: var(--accent-color);
+     border-color: $accent-color;
  }
     
  &::placeholder {

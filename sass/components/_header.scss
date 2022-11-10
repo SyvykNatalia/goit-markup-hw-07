@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--fourth-bc-color);
+    background-color: $fourth-bc-color;
     border-bottom: 1px solid #ECECEC;
 
 
@@ -39,19 +39,19 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     font-weight: 500;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     transform: scale(1);
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: $trannsition-function;
 
 &:hover,
 &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
     transform: scale(1.1);
 }
 
 &--current {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 &--current::after {

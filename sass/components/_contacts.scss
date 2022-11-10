@@ -21,15 +21,15 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     font-weight: 500;
-    color: var(--secondary-text-color);
-    fill: var(--secondary-text-color);
+    color: $secondary-text-color;
+    fill: $secondary-text-color;
     transform: scale(1);
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: $trannsition-function;
     
     &:hover,
     &:focus {
-            color: var(--accent-color);
+            color: $accent-color;
             transform: scale(1.1);
         }
 }
