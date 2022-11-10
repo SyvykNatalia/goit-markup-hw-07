@@ -24,6 +24,9 @@
     @include visually-hidden(); 
 }
 &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 16px;
     height: 15px;
     border: 2px solid $primary-text-color;
@@ -31,9 +34,6 @@
 }
 
 &__mark {
-    position: absolute;
-    top: 0;
-    left: 0;
     color: $third-text-color;
 }
 
